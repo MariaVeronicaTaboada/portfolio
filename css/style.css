@@ -1,0 +1,81 @@
+* {
+  margin: 1%;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-size: larger;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight: lighter;
+  line-height: 200%;
+  min-height: 100vh;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+  border: hidden;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 10px;
+}
+
+.wrapper div {
+  border: 5px double rgb(99, 26, 99);
+  border-radius: 7rem;
+  padding: 7px;
+  text-align: center;
+}
+
+.moon {
+  grid-column: 1/2;
+}
+
+.sunrise {
+  grid-column: 2/3;
+}
+
+.sunset {
+  grid-column: 3/4;
+}
+
+.seascapes {
+  grid-column: 4/5;
+}
+
+.plants {
+  grid-column: 1/2;
+  grid-row: 2/3;
+}
+
+.people {
+  grid-column: 2/3;
+  grid-row: 2/3;
+}
+
+.market {
+  grid-column: 3/4;
+  grid-row: 2/3;
+}
+
+.structures {
+  grid-column: 4/5;
+  grid-row: 2/3;
+}
+
+.icons {
+  border-radius: 50%;
+}
+
+.photos {
+  padding: 10px;
+  background-color: #e79556;
+}
+
+footer {
+  text-align: center;
+}
